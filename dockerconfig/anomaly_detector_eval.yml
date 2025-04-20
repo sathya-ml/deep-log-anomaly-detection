@@ -1,0 +1,4 @@
+data_path: "{ROOT_DATA_DIR}/encoded_dataset/encoded_100k_subset.pkl"
+model_save_path: "{ROOT_DATA_DIR}/anomaly_trained_model/"
+output_path: "{ROOT_DATA_DIR}/anomaly_detection_results/sorted_100k_consecutive_subset.yml"
+batch_size: 2048

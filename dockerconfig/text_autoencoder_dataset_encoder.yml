@@ -1,0 +1,7 @@
+trained_model_folder: "{ROOT_DATA_DIR}/text_autoencoder_model/"
+vocabulary_path: "{ROOT_DATA_DIR}/prepared_data/vocabulary.txt"
+lower: False
+dataset_file: "{ROOT_DATA_DIR}/raw_data/sorted_100k_consecutive_subset.log"
+output_path: "{ROOT_DATA_DIR}/encoded_dataset/encoded_100k_subset.pkl"
+line_show_step: 100
+batch_size: 64

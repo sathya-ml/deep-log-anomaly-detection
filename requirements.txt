@@ -1,0 +1,19 @@
+## Requirements for deep_log_anomaly_detection
+
+# For text_autoencoder
+tensorflow-gpu
+six
+
+# For time_series_anomaly_det
+pandas
+numpy
+seaborn
+matplotlib
+h2o
+keras
+h5py
+scikit-learn
+
+# For deep_log_anomaly_detection
+pyyaml
+runstats

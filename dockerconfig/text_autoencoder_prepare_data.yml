@@ -1,0 +1,12 @@
+# Text file previously tokenized by whitespace) and preprocessed
+input: "{ROOT_DATA_DIR}/raw_data/sorted_100k_subset.log"
+# Directory to save the data
+output_folder: "{ROOT_DATA_DIR}/prepared_data/"
+# folder for temp files
+temp_folder: "{ROOT_DATA_DIR}/tmp/"
+# Maximum sentence size
+max_sent_size: 200
+# Minimum times a word must occur (default 10)
+min_word_freq: 10
+# Proportion of the validation dataset
+validation_dataset_percentage: 0.01

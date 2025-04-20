@@ -1,0 +1,7 @@
+raw_dataset_path: "{ROOT_DATA_DIR}/raw_data/sorted_100k_consecutive_subset.log"
+anomaly_values_path: "{ROOT_DATA_DIR}/anomaly_detection_results/sorted_100k_consecutive_subset.yml"
+labels_file_path: "{ROOT_DATA_DIR}/labels/mlabel.txt"
+tf_labels_file_path: "{ROOT_DATA_DIR}/labels/rawTFVector.txt"
+threshold_num: 150
+#output_path: "{ROOT_DATA_DIR}/statistics_out/sorted_100k_consecutive_subset.yml"
+output_folder: "{ROOT_DATA_DIR}/statistics_out/"

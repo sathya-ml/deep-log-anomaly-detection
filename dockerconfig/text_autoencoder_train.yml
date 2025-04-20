@@ -1,0 +1,28 @@
+# Directory to file to save trained model
+save_dir: "{ROOT_DATA_DIR}/text_autoencoder_model"
+# Embedding size (if embeddings not given)
+embedding_size: 100
+# Number of LSTM units (when using a bidirectional model, this is doubled in practice)
+lstm_units: 50
+# Initial learning rate
+learning_rate: 0.01
+# Batch size
+batch_size: 64
+# Number of epochs
+num_epochs: 5
+# Dropout keep probability
+dropout_keep: 0.75
+# Number of batches between performance report
+interval: 100
+# Use a monodirectional LSTM when True (bidirectional is used by default)
+bidirectional: False
+# Train embeddings. If not given, they are frozen. (always true if embeddings are not given)
+train_embeddings:
+# Numpy embeddings file. If not supplied, random embeddings are generated.
+embeddings:
+# Vocabulary file
+vocab: "{ROOT_DATA_DIR}/prepared_data/vocabulary.txt"
+# Training set
+train: "{ROOT_DATA_DIR}/prepared_data/train-data.npz"
+# Validation set
+valid: "{ROOT_DATA_DIR}/prepared_data/valid-data.npz"

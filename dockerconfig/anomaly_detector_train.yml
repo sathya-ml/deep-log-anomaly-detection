@@ -1,0 +1,5 @@
+data_path: "{ROOT_DATA_DIR}/encoded_dataset/encoded_100k_subset.pkl"
+model_save_path: "{ROOT_DATA_DIR}/anomaly_trained_model/"
+batch_size: 64
+epochs: 10
+validation_split: 0.01
