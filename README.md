@@ -47,3 +47,18 @@ This project incorporates code from external repositories:
 - `text_autoencoder` available [HERE](https://github.com/erickrf/autoencoder)
 
 Both components are used under their respective licenses.
+
+## Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@inproceedings{bursic2019anomaly,
+  title={Anomaly detection from log files using unsupervised deep learning},
+  author={Bursic, Sathya and Cuculo, Vittorio and D’Amelio, Alessandro},
+  booktitle={International symposium on formal methods},
+  pages={200--207},
+  year={2019},
+  organization={Springer}
+}
+```
